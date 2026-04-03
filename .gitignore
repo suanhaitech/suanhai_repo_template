@@ -150,3 +150,8 @@ vcpkg_installed/
 *.log
 *.tmp
 *.bak
+
+# The third party repos
+repos/*
+!repos/README.md
+!repos/repo_manifest.yaml
